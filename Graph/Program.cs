@@ -70,14 +70,14 @@ namespace Graph
 
             graph.AddEdge(v12, v13, 13);
 
-            int[][,] matrix = graph.GetMetrix();
-            Graph.DrawGraph(graph, matrix);
+          //  int[][,] matrix = graph.GetMetrix();
+          //  Graph.DrawGraphConsole(graph, matrix);
 
 
-            int delta = 0;
-            matrix = graph.FordFalkerson(matrix, ref delta);
-            graph.FordFalkersonBack(matrix, ref delta);
-            Console.ReadLine();
+          //  int delta = 0;
+          //  matrix = graph.FordFalkerson(matrix, ref delta);
+          ////  graph.FordFalkersonBack(matrix, ref delta);
+          //  Console.ReadLine();
         }
 
     }
